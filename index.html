@@ -1,0 +1,32 @@
+<!DOCTYPE html> <!-- Indica que el documento es HTML5 -->
+
+<html lang="es"> <!-- Comienza el documento HTML y define el idioma como español -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Codificación de caracteres UTF-8 para soportar acentos y ñ -->
+    <meta name="author" content="Miguel Ángel"> <!-- Autor de la página -->
+    <meta name="description" content="Descripción breve de la página"> <!-- Breve descripción para buscadores -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que la página sea responsive -->
+    <link rel="stylesheet" type="text/css" href="css/hojaAgrandar.css"> <!-- Enlaza un archivo CSS externo -->
+    <title>Actividad 4 - Cambiar tamaño imagen</title> <!-- Título de la página -->
+    <script src="js/jsAgrandar.js" defer></script> <!-- Enlaza un archivo JavaScript externo y lo carga después del HTML -->
+</head>
+
+<body>
+  <!-- Título -->
+  <h1>Actividad 4 · Cambiar tamaño de la imagen</h1>
+
+  <!-- Instrucción -->
+  <p>Pulsa + para agrandar y − para reducir. El tamaño inicial es 360px de ancho.</p>
+
+  <!-- Imagen: reemplaza "imagen4.jpg" por tu archivo -->
+  <img id="imagenTam" src="imagenes/luigi.jpg" alt="Imagen para cambiar tamaño" width="360">
+
+  <!-- Botones para controlar tamaño -->
+  <div style="margin-top:12px;">
+    <button id="btnMenos">−</button>
+    <button id="btnMas">+</button>
+  </div>
+
+</body>
+</html>
